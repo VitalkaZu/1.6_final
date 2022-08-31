@@ -757,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
   .popup-menu__link {
     position: relative;
     transition: all 0.2s;
-    color: color-1;
+    color: #1B1C21;
     letter-spacing: -0.6px;
     font-size: 16px;
     line-height: 24px;
@@ -836,7 +836,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     letter-spacing: -0.2px; }
   .lang-select__radio:checked + .lang-select__label {
-    color: color-2; }
+    color: #7E7E82; }
 
 /*Ограничение по ширине и центровка*/
 .modal {
