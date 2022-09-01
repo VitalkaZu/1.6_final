@@ -39,8 +39,6 @@
       </form>
     </div>
   </aside>
-
-
   <aside id="popup-menu" class="menu-popup popup">
     <div class="menu-popup__wrapper popup__content popup-menu">
       <div class="popup-menu__top">
@@ -122,7 +120,6 @@
     </div>
 
   </header>
-  <div class="scroll-head">
     <div class="wrapper">
       <nav class="scroll-menu">
         <ul class="scroll-menu__items">
@@ -135,109 +132,108 @@
         </ul>
       </nav>
     </div>
-  </div>
   <main class="main">
-    <section class="about-us">
+    <section class="section about-us">
         <div class="section about-us__text-container collapse">
           <div class="about-us__text collapse__area">
             <p class="about-us__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
             <p class="about-us__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
           </div>
-          <button class="collapse__button about-us__button"><span class="more-button__text">Читать далее</span><span class="more-button__text">Скрыть</span></button>
+          <button class="collapse__button about-us__button" data-more="Читать далее">Читать далее</button>
         </div>
         <div class="about-us__img">
-          <img class="picture picture--radius-corner" src="./img/pictures/cps.jpg" alt="CPS">
+          <img class="picture" src="./img/pictures/cps.jpg" alt="CPS">
         </div>
     </section>
 
     <section class="section">
-      <div class="section__title wrapper">
+      <div class="section__title">
           <h2 class="section__title-text">Ремонт техники различных брендов</h2>
       </div>
       <div id="brands-list" class="swiper-container swiper-container1 wrapper collapse">
         <ul class="swiper-wrapper card-list collapse__area">
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/lenovo.png" alt="lenovo"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/lenovo.png" alt="lenovo"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/samsung.png" alt="samsung"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/samsung.png" alt="samsung"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/apple.png" alt="apple"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/apple.png" alt="apple"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/viewsonic.png" alt="viewsonic"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/viewsonic.png" alt="viewsonic"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/sony.svg" alt="sony"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/sony.svg" alt="sony"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="" class="card-list__link"><img class="brand-card__logo" src="./img/brands/acer.png" alt="acer"></a>
+          <li class="swiper-slide">
+            <a href="" class="card-list__item"><img src="./img/brands/acer.png" alt="acer"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/lenovo.png" alt="lenovo"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/lenovo.png" alt="lenovo"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/samsung.png" alt="samsung"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/samsung.png" alt="samsung"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/apple.png" alt="apple"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/apple.png" alt="apple"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="" class="card-list__link"><img class="brand-card__logo" src="./img/brands/acer.png" alt="acer"></a>
+          <li class="swiper-slide">
+            <a href="" class="card-list__item"><img src="./img/brands/acer.png" alt="acer"></a>
           </li>
-          <li class="swiper-slide card-list__item">
-            <a href="#" class="card-list__link"><img class="brand-card__logo" src="./img/brands/lenovo.png" alt="lenovo"></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item"><img src="./img/brands/lenovo.png" alt="lenovo"></a>
           </li>
         </ul>
         <div class="swiper-pagination swiper-pagination1"></div>
-        <button class="collapse__button"><span class="more-button__text">Показать все</span><span class="more-button__text">Скрыть</span></button>
+        <button class="collapse__button" data-more="Показать все">Показать все</button>
       </div>
     </section>
     <section class="section">
-      <div class="section__title wrapper">
+      <div class="section__title">
           <h2 class="section__title-text">Ремонт различных видов техники</h2>
       </div>
       <div class="swiper-container swiper-container2 wrapper collapse">
         <ul class="swiper-wrapper card-list collapse__area">
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт ноутбуков</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт ноутбуков</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт планшетов</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт планшетов</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт ПК</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт ПК</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт мониторов</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт мониторов</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт телефонов</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт телефонов</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="" class="card-list__link"><span class="card-list__title">Ремонт клаватур</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт клаватур</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт мышек</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт мышек</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт колонок</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт колонок</span></a>
           </li>
-          <li class="swiper-slide card-list__item card-list__item--large">
-            <a href="#" class="card-list__link"><span class="card-list__title">Ремонт приставок</span></a>
+          <li class="swiper-slide">
+            <a href="#" class="card-list__item card-list__item--large"><span class="card-list__title">Ремонт приставок</span></a>
           </li>
         </ul>
         <div class="swiper-pagination swiper-pagination2"></div>
-        <button class="collapse__button"><span class="more-button__text">Показать все</span><span class="more-button__text">Скрыть</span></button>
+        <button class="collapse__button" data-more="Показать все">Показать все</button>
       </div>
     </section>
     <section class="section">
-      <div class="section__title wrapper">
+      <div class="section__title">
           <h2 class="section__title-text">Цены на услуги</h2>
       </div>
-      <div class="price wrapper">
-        <div class="price-table swiper-container swiper-container3">
+      <div class="price">
+        <div class="price-table swiper-container swiper-container3 wrapper">
           <div class="card-price card-price__header">
             <div class="card-price__row">
               <span class="card-price__title card-price__title--show">Ремонтные услуги</span>
@@ -340,14 +336,14 @@
           </ul>
           <div class="swiper-pagination swiper-pagination3"></div>
         </div>
-        <div class="section__text-block">
-          <span class="section__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</span>
+        <div class="section__text-block wrapper">
+          <p class="section__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
           <a href="#" class="section__link">Получить коммерческое предложение </a>
         </div>
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer footer__position">
     <ul class="wrapper footer__list">
       <li class="footer__item">© 2019 CPS Разработано командой Apesong</li>
       <li class="footer__item"><a class="footer__link" href="#">Политика конфиденциальности</a></li>
@@ -355,5 +351,5 @@
     </ul>
   </footer>
 </div>
-<script type="text/javascript" src="./js/bundle.4d6372d601c3bec7e752.js"></script></body>
+<script type="text/javascript" src="./js/bundle.a82d76ca4c3c43f9158d.js"></script></body>
 </html>
